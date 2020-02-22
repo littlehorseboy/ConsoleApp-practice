@@ -10,6 +10,12 @@ namespace ConsoleApp_practice
             string username = Console.ReadLine();
             Console.WriteLine("\n");
             Console.WriteLine($"你好，{username}");
+
+            int dayOfYear = DateTime.Now.DayOfYear;
+
+            Console.Write("今天是一年中的第 ");
+            Console.Write(dayOfYear);
+            Console.Write(" 天");
         }
     }
 }
